@@ -1,0 +1,70 @@
+/* registration page starts here */
+body {
+    background: url("../images/register-bckgrnd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .register-page .register-page-wrapper {
+    background-color: rgba(8, 85, 8, 0.404);
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+  .register-page .register-page-wrapper form {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+  }
+  .register-page .register-page-wrapper .btn-signup {
+    background-color: rgb(117, 20, 117);
+    color: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .register-page .register-page-wrapper h2 {
+      text-align: center;
+      color: white;
+  }
+  .register-page .register-page-wrapper form .form-left input{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .register-page .register-page-wrapper form .form-right input{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+  }
+
+  .register-page .register-page-wrapper form .form-right {
+    padding: 20px 10px;
+    
+  }
+  .register-page .register-page-wrapper form .form-left {
+    padding: 20px 10px;
+
+  }
+  .register-page .register-page-wrapper .btn-signup{
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
